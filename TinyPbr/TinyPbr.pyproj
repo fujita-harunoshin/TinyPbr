@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7e4204d9-e947-4c7b-b422-9766e1bec447</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TinyPbr.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="TinyPbr.py" />
+    <Compile Include="Core\vector.py" />
+    <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Core\" />
