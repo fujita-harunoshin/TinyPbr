@@ -21,7 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Core\camera.py" />
+    <Compile Include="Core\ray.py" />
     <Compile Include="Core\vector.py" />
+    <Compile Include="Geometry\base.py" />
+    <Compile Include="Geometry\scene.py" />
+    <Compile Include="Geometry\sphere.py" />
+    <Compile Include="Integrators\base.py" />
+    <Compile Include="Integrators\normal.py" />
     <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
